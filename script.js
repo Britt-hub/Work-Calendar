@@ -10,10 +10,11 @@ function timeUpdate(){
     
     })    
     }
-    
     timeUpdate()
-
-
-
 })
 
+
+// var hour = 12;
+// if (hour >=1 && <12) {
+//     statement
+// }

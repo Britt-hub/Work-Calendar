@@ -1,3 +1,4 @@
+
 .time {
     display: flex;
     flex-direction: row;
@@ -9,9 +10,9 @@
 }
 
 .presentTime {
-    background-color: grey;
+    background-color: red;
 }
 
 .futureTime {
-    background-color: grey;
+    background-color: green;
 }

@@ -1,0 +1,17 @@
+.time {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pastTime {
+    background-color: grey;
+}
+
+.presentTime {
+    background-color: grey;
+}
+
+.futureTime {
+    background-color: grey;
+}

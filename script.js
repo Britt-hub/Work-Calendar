@@ -25,16 +25,16 @@ $(document).ready(function () {
 
 document.write('It\'s now: ', hours, '<br><br>');
 document.bgColor = "#808080";
-
+//determine how to correct this code to change the background color
 //past time
 if (past > 17 && hours < 20) {
     document.write('<body style="background-color: grey">');
 }
 //current time
 else if (hours > 19 && hours < 22) {
-    document.write('<body style="background-color: orangered">');
+    document.write('<body style="background-color: red">');
 }
 //future time
 else if (hours > 21 || hours < 5) {
-    document.write('<body style="background-color: #C0C0C0;">');
+    document.write('<body style="background-color: green;">');
 }

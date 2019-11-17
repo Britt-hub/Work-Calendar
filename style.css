@@ -6,13 +6,13 @@
 }
 
 .pastTime {
-    background-color: grey;
+    background-color: #808080;
 }
 
 .presentTime {
-    background-color: red;
+    background-color: #ff0000;
 }
 
 .futureTime {
-    background-color: green;
+    background-color: #008000;
 }

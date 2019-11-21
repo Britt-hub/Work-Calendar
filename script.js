@@ -1,13 +1,12 @@
 $(document).ready(function () {
     $("#currentDate").text(moment().format('dddd, MMMM Do'));
 
-    // none of this shit is working man. NEED TO FIGURE OUT LOCAL STORAGE.
     function timeUpdate() {
         $(".time").each(function () {
             $("textarea").addClass("pastTime")
         })
         $(".time").each(function () {
-            $("textarea").addClass("presentTime")
+            $("textarea").addClass("presentTime") 
         })
         $(".time").each(function () {
             $("textarea").addClass("futureTime")

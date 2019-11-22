@@ -4,13 +4,19 @@ $(document).ready(function () {
        
 
     function timeUpdate() {
+        console.log(currentTime)
+        console.log($('textarea[data-attribute="9"]'))
 
 if (currentTime < $('textarea[data-attribute="9"]').attr('data-attribute')){
     $('textarea[data-attribute="9"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="9"]').attr('data-attribute')){
+    console.log((currentTime > $('textarea[data-attribute="9"]').attr('data-attribute')))
+
     $('textarea[data-attribute="9"]').addClass("futureTime");
 } else {
     $('textarea[data-attribute="9"]').addClass("presentTime");
+    console.log((currentTime > $('textarea[data-attribute="9"]').attr('data-attribute')))
+
 }
 
 if (currentTime < $('textarea[data-attribute="10"]').attr('data-attribute')){

@@ -5,14 +5,14 @@
 
 }
 
-.isAfter {
+.pastTime {
     background-color: #808080;
 }
 
-.isBetween {
+.presentTime {
     background-color: #ff0000;
 }
 
-.isBefore {
+.futureTime {
     background-color: #008000;
 }

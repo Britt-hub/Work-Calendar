@@ -6,75 +6,75 @@ $(document).ready(function () {
     function timeUpdate() {
 
 if (currentTime < $('textarea[data-attribute="9"]').attr('data-attribute')){
-    ('textarea[data-attribute="9"]').addClass("pastTime");
+    $('textarea[data-attribute="9"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="9"]').attr('data-attribute')){
-    ('textarea[data-attribute="9"]').addClass("futureTime");
+    $('textarea[data-attribute="9"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="9"]').addClass("presentTime");
+    $('textarea[data-attribute="9"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="10"]').attr('data-attribute')){
-    ('textarea[data-attribute="10"]').addClass("pastTime");
+    $('textarea[data-attribute="10"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="10"]').attr('data-attribute')){
-    ('textarea[data-attribute="10"]').addClass("futureTime");
+    $('textarea[data-attribute="10"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="10"]').addClass("presentTime");
+    $('textarea[data-attribute="10"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="11"]').attr('data-attribute')){
-    ('textarea[data-attribute="11"]').addClass("pastTime");
+    $('textarea[data-attribute="11"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="11"]').attr('data-attribute')){
-    ('textarea[data-attribute="11"]').addClass("futureTime");
+    $('textarea[data-attribute="11"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="11"]').addClass("presentTime");
+    $('textarea[data-attribute="11"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="12"]').attr('data-attribute')){
-    ('textarea[data-attribute="12"]').addClass("pastTime");
+    $('textarea[data-attribute="12"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="12"]').attr('data-attribute')){
-    ('textarea[data-attribute="12"]').addClass("futureTime");
+    $('textarea[data-attribute="12"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="12"]').addClass("presentTime");
+    $('textarea[data-attribute="12"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="13"]').attr('data-attribute')){
-    ('textarea[data-attribute="13"]').addClass("pastTime");
+    $('textarea[data-attribute="13"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="13"]').attr('data-attribute')){
-    ('textarea[data-attribute="13"]').addClass("futureTime");
+    $('textarea[data-attribute="13"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="13"]').addClass("presentTime");
+    $('textarea[data-attribute="13"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="14"]').attr('data-attribute')){
-    ('textarea[data-attribute="14"]').addClass("pastTime");
+    $('textarea[data-attribute="14"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="14"]').attr('data-attribute')){
-    ('textarea[data-attribute="14"]').addClass("futureTime");
+    $('textarea[data-attribute="14"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="14"]').addClass("presentTime");
+    $('textarea[data-attribute="14"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="15"]').attr('data-attribute')){
-    ('textarea[data-attribute="15"]').addClass("pastTime");
+    $('textarea[data-attribute="15"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="15"]').attr('data-attribute')){
-    ('textarea[data-attribute="15"]').addClass("futureTime");
+    $('textarea[data-attribute="15"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="15"]').addClass("presentTime");
+    $('textarea[data-attribute="15"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="16"]').attr('data-attribute')){
-    ('textarea[data-attribute="16"]').addClass("pastTime");
+    $('textarea[data-attribute="16"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="16"]').attr('data-attribute')){
-    ('textarea[data-attribute="16"]').addClass("futureTime");
+    $('textarea[data-attribute="16"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="16"]').addClass("presentTime");
+    $('textarea[data-attribute="16"]').addClass("presentTime");
 }
 
 if (currentTime < $('textarea[data-attribute="17"]').attr('data-attribute')){
-    ('textarea[data-attribute="17"]').addClass("pastTime");
+    $('textarea[data-attribute="17"]').addClass("pastTime");
 } else if (currentTime > $('textarea[data-attribute="17"]').attr('data-attribute')){
-    ('textarea[data-attribute="17"]').addClass("futureTime");
+    $('textarea[data-attribute="17"]').addClass("futureTime");
 } else {
-    ('textarea[data-attribute="17"]').addClass("presentTime");
+    $('textarea[data-attribute="17"]').addClass("presentTime");
 }
 
 

@@ -16,3 +16,13 @@
 .futureTime {
     background-color: #008000;
 }
+
+p {
+    text-align: center;
+    font-size: 1.5rem
+}
+
+h1  {
+    text-align: center;
+    font-size: 4.5rem;
+}

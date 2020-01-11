@@ -1,25 +1,29 @@
-# Work-Calendar
+# Work Day Calendar
 
 
 ## Overview
 
-This is an interface that makes it easy for business owner or employees to view and interact with information statored in the database I've created. 
+Created a simple calendar application that allows the user to save events for each hour of the day. 
+
+This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+The app should display standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following:
 
 ![Weather App](WeatherappPicture.png)
 
 
 ## Installation
 
-Inquirer Package Manager [pip] (https://www.npmjs.com/package/inquirer/v/0.2.3)
+API [pip] (https://openweathermap.org/api)
 
 
-HTTPS:
-$ git clone https://britt-hub.github.io/MySQLEmployee-Tracker/
 
 ##Built With
 
-Node.js JavaScript runtime
-MySql - Data Base
+JavaScript
+API
+moment.js
+
 
 
 ## License

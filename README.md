@@ -9,7 +9,6 @@ This app will run in the browser and feature dynamically updated HTML and CSS po
 
 The app should display standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following:
 
-![Weather App](WeatherappPicture.png)
 
 
 ## Installation
